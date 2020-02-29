@@ -47,6 +47,10 @@
     {{- __('footer.powered', next_url('https://hexo.io', 'Hexo', {class: 'theme-link'})) }}
     {%- if theme.footer.powered.version %} v{{ hexo_version }}{%- endif %}
   </div>
+  <span class="post-meta-divider">|</span>
+  <div class="powered-by">
+    Hosted by <a href="https://pages.coding.me">Coding Pages</a>
+  </div>
 {%- endif %}
 
 {%- if theme.footer.powered.enable and theme.footer.theme.enable %}
